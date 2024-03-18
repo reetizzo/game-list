@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'fonte';
+    src: url('/assets/spacetime-regular.ttf') format('woff2');
+}
+
+
+body {
+    font-family: 'fonte';
+    background-image: linear-gradient(to bottom, #0F2027, #4286f4);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.item-card {
+    background-color:#777c83;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    width: 310px;
+    height: 370px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.item-card img {
+    max-width: 100%;
+    height: auto;
+    min-height: 171px;
+}
+
+.item-info {
+margin-top: 10px;
+}
+
+
+
+.item-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    color:#000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.item-description {
+    color: #1d1c1c;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    
+    text-align: center;
+    min-height: 68px;
+   
+}
+
+.play{
+    display: block;
+    top: 50%;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+}
+
+.item-link {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    top: 50%;
+    text-align: center;
+    font-family: 'fonte';
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color: #b3b3b6;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.item-link:hover {
+    background-color: #ccccd3;
+}
+
+
